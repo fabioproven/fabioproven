@@ -21,12 +21,13 @@ class DataEngineer:
         self.role = "Data Engineer"
         self.language_spoken = ["pt_BR", "en_US(B2)"]
 
-    def Experience(self):
-        skills = ["System integrations","ETL","Data pipeline","Data Warehouse and Data Lake","Business understanding"]
-        code = ["Python", "SQL", "Shell script"],
+    def experience(self):
+        skills = ["API","ETL","Data pipeline",
+                    "Data Warehouse and Data Lake","Business Intelligence"]
+        code = ["Python", "SQL", "Shell script", "Spark"],
         
-    def Tools(self):        
-         devOps = ["GCP", "Docker🐳", "Kubernets"]
+    def tools(self):        
+         devOps = ["GCP", "Docker🐳", "Kubernets", "GIT"]
          database = {
                  "Relational" : "MS SQL Server, PostgreSQL, Oracle, BigQuery" ,
                  "Document" : "MongoDB",
@@ -35,6 +36,7 @@ class DataEngineer:
          softwares = {
                 "Orchestration" : "Airflow, SSIS, Datafactory",
                 "Visualization" : "PowerBi",
+                "Others" : "Databricks"
                     }
     def say_hi(self):
         print("Thanks for visiting, I hope you like my work.")
