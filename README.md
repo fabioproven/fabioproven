@@ -19,7 +19,7 @@ class DataEngineer:
         self.name = "Fabio Provencale"
         self.pronouns = ["He" , "Him"]
         self.role = "Data Engineer"
-        self.language_spoken = ["pt_BR", "en_US(B2)"]
+        self.language_spoken = ["pt_BR", "en_US(A2)"]
 
     def experience(self):
         skills = ["API","ETL","Data pipeline",
